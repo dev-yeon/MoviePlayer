@@ -16,6 +16,9 @@
 		A616149E2AEB6B4C00051177 /* MoviePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616149D2AEB6B4C00051177 /* MoviePlayerTests.swift */; };
 		A61614A82AEB6B4C00051177 /* MoviePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61614A72AEB6B4C00051177 /* MoviePlayerUITests.swift */; };
 		A61614AA2AEB6B4C00051177 /* MoviePlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61614A92AEB6B4C00051177 /* MoviePlayerUITestsLaunchTests.swift */; };
+		A61614BA2AEB709F00051177 /* waterFall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A61614B92AEB709F00051177 /* waterFall.jpeg */; };
+		A61614BC2AEB710500051177 /* feetFry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A61614BB2AEB710500051177 /* feetFry.jpeg */; };
+		A61614BD2AEB9D9B00051177 /* waterFall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A61614B82AEB6FF600051177 /* waterFall.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A61614A32AEB6B4C00051177 /* MoviePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61614A72AEB6B4C00051177 /* MoviePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITests.swift; sourceTree = "<group>"; };
 		A61614A92AEB6B4C00051177 /* MoviePlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A61614B82AEB6FF600051177 /* waterFall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = waterFall.mp4; path = ../../../../../../../../Downloads/waterFall.mp4; sourceTree = "<group>"; };
+		A61614B92AEB709F00051177 /* waterFall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = waterFall.jpeg; path = ../../../../../../../../Downloads/waterFall.jpeg; sourceTree = "<group>"; };
+		A61614BB2AEB710500051177 /* feetFry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feetFry.jpeg; path = ../../../../../../../../Downloads/feetFry.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		A61614852AEB6B4900051177 /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A61614B62AEB6B7500051177 /* Resources */,
 				A61614862AEB6B4900051177 /* AppDelegate.swift */,
 				A61614882AEB6B4900051177 /* SceneDelegate.swift */,
 				A616148A2AEB6B4900051177 /* ViewController.swift */,
@@ -125,6 +132,16 @@
 				A61614A92AEB6B4C00051177 /* MoviePlayerUITestsLaunchTests.swift */,
 			);
 			path = MoviePlayerUITests;
+			sourceTree = "<group>";
+		};
+		A61614B62AEB6B7500051177 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A61614B92AEB709F00051177 /* waterFall.jpeg */,
+				A61614B82AEB6FF600051177 /* waterFall.mp4 */,
+				A61614BB2AEB710500051177 /* feetFry.jpeg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61614BD2AEB9D9B00051177 /* waterFall.mp4 in Resources */,
 				A61614932AEB6B4C00051177 /* LaunchScreen.storyboard in Resources */,
 				A61614902AEB6B4C00051177 /* Assets.xcassets in Resources */,
+				A61614BC2AEB710500051177 /* feetFry.jpeg in Resources */,
 				A616148E2AEB6B4900051177 /* Main.storyboard in Resources */,
+				A61614BA2AEB709F00051177 /* waterFall.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
